@@ -1,8 +1,9 @@
-name: 'Ferris Sweep CRMO'
+name: 'Ferris Sweep RP2040'
 on:
-  - workflow_dispatch
+  workflow_dispatch:
+
 jobs:
   build:
     uses: ./.github/workflows/main.yml
     with:
-      keyboard: '["ferris/sweep"]'
+      keyboard: '["ferris/sweep/rev1/rp2040"]'
