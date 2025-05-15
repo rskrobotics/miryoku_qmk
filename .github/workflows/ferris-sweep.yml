@@ -1,0 +1,8 @@
+name: 'Ferris Sweep CRMO'
+on:
+  - workflow_dispatch
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    with:
+      keyboard: '["ferris/sweep"]'
